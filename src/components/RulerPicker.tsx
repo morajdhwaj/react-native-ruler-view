@@ -353,6 +353,7 @@ export const RulerPicker: React.FC<RulerPickerProps> = ({
         showsHorizontalScrollIndicator={false}
         showsVerticalScrollIndicator={false}
         horizontal={!vertical}
+        removeClippedSubviews={false} 
       />
       <View style={styles.indicator} />
     </View>
